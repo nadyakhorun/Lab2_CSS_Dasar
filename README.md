@@ -70,13 +70,29 @@ tambahkan kode berikut.
 
 ![lab2 baru8 hasil akhir](https://github.com/nadyakhorun/Lab2_CSS_Dasar/assets/115801823/d31fcaa4-991c-4480-8e63-a57d97845274)
 
-Pertanyaan
+13. Kemudian lakukan validasi dokumen CSS dengan cara mengakses https://jigsaw.w3.org/css-validator/ seperti gambar berikut
+
+![hasil validasi](https://github.com/nadyakhorun/Lab2_CSS_Dasar/assets/115801823/de7be932-c895-4dfc-9c57-4d8725a4684c)
+
+# Pertanyaan Dan Tugas
+
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
 dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 
    jawab :
+
+   ![NYOBA](https://github.com/nadyakhorun/Lab2_CSS_Dasar/assets/115801823/421cddb8-126f-4180-9da0-71f04e343224)
+
+   ![nyoba 2](https://github.com/nadyakhorun/Lab2_CSS_Dasar/assets/115801823/b12a908c-91eb-416e-be3d-b51232f2638b)
+
+   Pada contoh ini, terdapat elemen < h2 > dengan class "title" dan elemen < p > dengan class "text". Class 
+   tersebut akan digunakan sebagai selector dalam CSS untuk mengubah properti dan nilai. Dalam file CSS 
+   (style.css), terdapat aturan CSS yang dideklarasikan untuk class "title" dan "text". Aturan tersebut 
+   mengubah properti "color" pada elemen dengan class tersebut. Anda dapat mengubah nilai properti "color" 
+   pada file CSS sesuai keinginan Anda untuk melihat perubahan yang terjadi pada judul (h2) dan paragraf 
+   (p) dalam hal warna teks
    
-3. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
 penjelasannya!
 
    jawab :
@@ -86,7 +102,7 @@ penjelasannya!
    - intro h1 {...} : Deklarasi ini lebih spesifik, maksud nya adalah pendeklarasian yang mengacu kepada 
      pemberian atribut pada elemen "h1" dengan menambahkan id "intro".
 
-4. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
 elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan
 penjelasan dan contohnya!
 
@@ -101,8 +117,15 @@ penjelasan dan contohnya!
 
    Jadi yang terpanggil adalah CSS INLINE karena memiliki prioritas tinggi dibanding CSS deklarasi lainnya.
    
-5. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
 terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
 Berikan penjelasan dan contohnya!      (    < p id="paragraf-1" class="text-paragraf" >    )
 
+   jawab :
+
+   ![NYOBA 3](https://github.com/nadyakhorun/Lab2_CSS_Dasar/assets/115801823/cdb33db1-dd80-402b-aa86-0f86143d4ec4)
+   
+   Yang terpanggil di browser adalah ID karena ID bersifat unik berbeda dengan Class. Class bisa digunakan 
+   banyak sementara ID hanya tertentu saja itu kenapa ID unik dan yang terpanggil di browser adalah ID.
+   
 # SEKIAN, TERIMA KASIH
